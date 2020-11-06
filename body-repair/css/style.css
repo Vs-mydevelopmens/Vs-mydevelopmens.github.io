@@ -123,7 +123,7 @@ body {
 
 .header {
   background: url("../images/header-bg.jpg") 50% top no-repeat;
-  height: 100vh;
+  height: 790px;
 }
 
 .header__top {
@@ -204,6 +204,54 @@ body {
 
 .logo {
   margin-top: 14px;
+}
+
+/*Section Services*/
+
+.services__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.services__content {
+  max-width: 235px;
+  width: 100%;
+  margin: 80px 35px 0 35px;
+  text-align: center;
+}
+
+.services__img {
+  margin-bottom: 30px;
+}
+
+.services__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services__title-item {
+  color: #000000;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.services__disc {
+  max-width: 218px;
+  width: 100%;
+}
+
+.services__disc-item {
+  color: #000000;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
 }
 @supports (-webkit-appearance:none){
 .header{background:url("../images/header-bg.webp") 50% top no-repeat}
